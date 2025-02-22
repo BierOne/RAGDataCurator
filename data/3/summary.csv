@@ -1,0 +1,5 @@
+filename,module_name,module_params,execution_time
+0.parquet,llama_index_chunk,"{'chunk_method': 'Token', 'chunk_size': 256, 'chunk_overlap': 24}",0.00233183292571656
+1.parquet,llama_index_chunk,"{'chunk_method': 'Token', 'chunk_size': 512, 'chunk_overlap': 24}",0.0014497462860838383
+2.parquet,llama_index_chunk,"{'chunk_method': 'Sentence', 'chunk_size': 256, 'chunk_overlap': 24}",0.0006121318497343692
+3.parquet,llama_index_chunk,"{'chunk_method': 'Sentence', 'chunk_size': 512, 'chunk_overlap': 24}",0.00045387545031701736

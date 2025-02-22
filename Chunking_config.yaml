@@ -1,0 +1,5 @@
+modules:
+  - module_type: llama_index_chunk
+    chunk_method: [ Token, Sentence ]
+    chunk_size: [ 256, 512 ]
+    chunk_overlap: 24
