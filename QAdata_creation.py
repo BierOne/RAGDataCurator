@@ -35,7 +35,7 @@ corpus_df = pd.read_parquet("data//3//2.parquet")
 corpus_instance = Corpus(corpus_df, raw_instance)
 
 evaluator = setup_evaluator(
-    api_key="sk-7d7c8f138a864a08bee5c59e7ca1962b",
+    api_key="your-api-key",
     base_url="https://dashscope.aliyuncs.com/compatible-mode/v1"
 )
 
