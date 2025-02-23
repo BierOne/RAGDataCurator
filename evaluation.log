@@ -1,0 +1,71 @@
+2025-02-23 15:59:39,906 - INFO - Processing batch 1/1
+2025-02-23 15:59:41,180 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 404 Not Found"
+2025-02-23 15:59:41,181 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 404 Not Found"
+2025-02-23 15:59:41,182 - WARNING - ∆¿π¿«Î«Û ß∞‹: Error code: 404 - {'error': {'message': 'The model `qwen-plus` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'param': None, 'code': 'model_not_found'}}
+2025-02-23 15:59:41,183 - WARNING - ∆¿π¿«Î«Û ß∞‹: Error code: 404 - {'error': {'message': 'The model `qwen-plus` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'param': None, 'code': 'model_not_found'}}
+2025-02-23 15:59:41,194 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 404 Not Found"
+2025-02-23 15:59:41,195 - WARNING - ∆¿π¿«Î«Û ß∞‹: Error code: 404 - {'error': {'message': 'The model `qwen-plus` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'param': None, 'code': 'model_not_found'}}
+2025-02-23 15:59:41,196 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 404 Not Found"
+2025-02-23 15:59:41,197 - WARNING - ∆¿π¿«Î«Û ß∞‹: Error code: 404 - {'error': {'message': 'The model `qwen-plus` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'param': None, 'code': 'model_not_found'}}
+2025-02-23 15:59:41,198 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 404 Not Found"
+2025-02-23 15:59:41,199 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 404 Not Found"
+2025-02-23 15:59:41,199 - WARNING - ∆¿π¿«Î«Û ß∞‹: Error code: 404 - {'error': {'message': 'The model `qwen-plus` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'param': None, 'code': 'model_not_found'}}
+2025-02-23 15:59:41,200 - WARNING - ∆¿π¿«Î«Û ß∞‹: Error code: 404 - {'error': {'message': 'The model `qwen-plus` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'param': None, 'code': 'model_not_found'}}
+2025-02-23 15:59:41,205 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 404 Not Found"
+2025-02-23 15:59:41,206 - WARNING - ∆¿π¿«Î«Û ß∞‹: Error code: 404 - {'error': {'message': 'The model `qwen-plus` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'param': None, 'code': 'model_not_found'}}
+2025-02-23 15:59:41,213 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 404 Not Found"
+2025-02-23 15:59:41,214 - WARNING - ∆¿π¿«Î«Û ß∞‹: Error code: 404 - {'error': {'message': 'The model `qwen-plus` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'param': None, 'code': 'model_not_found'}}
+2025-02-23 15:59:43,529 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 404 Not Found"
+2025-02-23 15:59:43,530 - WARNING - ∆¿π¿«Î«Û ß∞‹: Error code: 404 - {'error': {'message': 'The model `qwen-plus` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'param': None, 'code': 'model_not_found'}}
+2025-02-23 15:59:43,536 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 404 Not Found"
+2025-02-23 15:59:43,537 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 404 Not Found"
+2025-02-23 15:59:43,538 - WARNING - ∆¿π¿«Î«Û ß∞‹: Error code: 404 - {'error': {'message': 'The model `qwen-plus` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'param': None, 'code': 'model_not_found'}}
+2025-02-23 15:59:43,538 - WARNING - ∆¿π¿«Î«Û ß∞‹: Error code: 404 - {'error': {'message': 'The model `qwen-plus` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'param': None, 'code': 'model_not_found'}}
+2025-02-23 15:59:43,539 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 404 Not Found"
+2025-02-23 15:59:43,539 - WARNING - ∆¿π¿«Î«Û ß∞‹: Error code: 404 - {'error': {'message': 'The model `qwen-plus` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'param': None, 'code': 'model_not_found'}}
+2025-02-23 15:59:43,543 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 404 Not Found"
+2025-02-23 15:59:43,544 - WARNING - ∆¿π¿«Î«Û ß∞‹: Error code: 404 - {'error': {'message': 'The model `qwen-plus` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'param': None, 'code': 'model_not_found'}}
+2025-02-23 15:59:43,544 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 404 Not Found"
+2025-02-23 15:59:43,545 - WARNING - ∆¿π¿«Î«Û ß∞‹: Error code: 404 - {'error': {'message': 'The model `qwen-plus` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'param': None, 'code': 'model_not_found'}}
+2025-02-23 15:59:43,545 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 404 Not Found"
+2025-02-23 15:59:43,546 - WARNING - ∆¿π¿«Î«Û ß∞‹: Error code: 404 - {'error': {'message': 'The model `qwen-plus` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'param': None, 'code': 'model_not_found'}}
+2025-02-23 15:59:43,550 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 404 Not Found"
+2025-02-23 15:59:43,551 - WARNING - ∆¿π¿«Î«Û ß∞‹: Error code: 404 - {'error': {'message': 'The model `qwen-plus` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'param': None, 'code': 'model_not_found'}}
+2025-02-23 15:59:45,834 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 404 Not Found"
+2025-02-23 15:59:45,835 - WARNING - ∆¿π¿«Î«Û ß∞‹: Error code: 404 - {'error': {'message': 'The model `qwen-plus` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'param': None, 'code': 'model_not_found'}}
+2025-02-23 15:59:45,835 - ERROR - ¥¶¿Ì“Ï≥££∫RetryError[<Future at 0x127dec8feb0 state=finished raised NotFoundError>]
+2025-02-23 15:59:45,886 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 404 Not Found"
+2025-02-23 15:59:45,887 - WARNING - ∆¿π¿«Î«Û ß∞‹: Error code: 404 - {'error': {'message': 'The model `qwen-plus` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'param': None, 'code': 'model_not_found'}}
+2025-02-23 15:59:45,887 - ERROR - ¥¶¿Ì“Ï≥££∫RetryError[<Future at 0x127deca0460 state=finished raised NotFoundError>]
+2025-02-23 15:59:45,907 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 404 Not Found"
+2025-02-23 15:59:45,908 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 404 Not Found"
+2025-02-23 15:59:45,909 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 404 Not Found"
+2025-02-23 15:59:45,909 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 404 Not Found"
+2025-02-23 15:59:45,910 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 404 Not Found"
+2025-02-23 15:59:45,910 - WARNING - ∆¿π¿«Î«Û ß∞‹: Error code: 404 - {'error': {'message': 'The model `qwen-plus` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'param': None, 'code': 'model_not_found'}}
+2025-02-23 15:59:45,911 - ERROR - ¥¶¿Ì“Ï≥££∫RetryError[<Future at 0x127deca0ca0 state=finished raised NotFoundError>]
+2025-02-23 15:59:45,911 - WARNING - ∆¿π¿«Î«Û ß∞‹: Error code: 404 - {'error': {'message': 'The model `qwen-plus` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'param': None, 'code': 'model_not_found'}}
+2025-02-23 15:59:45,911 - ERROR - ¥¶¿Ì“Ï≥££∫RetryError[<Future at 0x127dec8d720 state=finished raised NotFoundError>]
+2025-02-23 15:59:45,912 - WARNING - ∆¿π¿«Î«Û ß∞‹: Error code: 404 - {'error': {'message': 'The model `qwen-plus` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'param': None, 'code': 'model_not_found'}}
+2025-02-23 15:59:45,912 - ERROR - ¥¶¿Ì“Ï≥££∫RetryError[<Future at 0x127de99a8f0 state=finished raised NotFoundError>]
+2025-02-23 15:59:45,913 - WARNING - ∆¿π¿«Î«Û ß∞‹: Error code: 404 - {'error': {'message': 'The model `qwen-plus` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'param': None, 'code': 'model_not_found'}}
+2025-02-23 15:59:45,913 - ERROR - ¥¶¿Ì“Ï≥££∫RetryError[<Future at 0x127de9c5090 state=finished raised NotFoundError>]
+2025-02-23 15:59:45,913 - WARNING - ∆¿π¿«Î«Û ß∞‹: Error code: 404 - {'error': {'message': 'The model `qwen-plus` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'param': None, 'code': 'model_not_found'}}
+2025-02-23 15:59:45,913 - ERROR - ¥¶¿Ì“Ï≥££∫RetryError[<Future at 0x127dea2f430 state=finished raised NotFoundError>]
+2025-02-23 15:59:45,914 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 404 Not Found"
+2025-02-23 15:59:45,915 - WARNING - ∆¿π¿«Î«Û ß∞‹: Error code: 404 - {'error': {'message': 'The model `qwen-plus` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'param': None, 'code': 'model_not_found'}}
+2025-02-23 15:59:45,915 - ERROR - ¥¶¿Ì“Ï≥££∫RetryError[<Future at 0x127de9e5720 state=finished raised NotFoundError>]
+2025-02-23 15:59:46,174 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 404 Not Found"
+2025-02-23 15:59:46,175 - WARNING - ∆¿π¿«Î«Û ß∞‹: Error code: 404 - {'error': {'message': 'The model `qwen-plus` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'param': None, 'code': 'model_not_found'}}
+2025-02-23 15:59:46,283 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 404 Not Found"
+2025-02-23 15:59:46,284 - WARNING - ∆¿π¿«Î«Û ß∞‹: Error code: 404 - {'error': {'message': 'The model `qwen-plus` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'param': None, 'code': 'model_not_found'}}
+2025-02-23 15:59:48,623 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 404 Not Found"
+2025-02-23 15:59:48,624 - WARNING - ∆¿π¿«Î«Û ß∞‹: Error code: 404 - {'error': {'message': 'The model `qwen-plus` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'param': None, 'code': 'model_not_found'}}
+2025-02-23 15:59:48,863 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 404 Not Found"
+2025-02-23 15:59:48,864 - WARNING - ∆¿π¿«Î«Û ß∞‹: Error code: 404 - {'error': {'message': 'The model `qwen-plus` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'param': None, 'code': 'model_not_found'}}
+2025-02-23 15:59:50,935 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 404 Not Found"
+2025-02-23 15:59:50,936 - WARNING - ∆¿π¿«Î«Û ß∞‹: Error code: 404 - {'error': {'message': 'The model `qwen-plus` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'param': None, 'code': 'model_not_found'}}
+2025-02-23 15:59:50,937 - ERROR - ¥¶¿Ì“Ï≥££∫RetryError[<Future at 0x127de946200 state=finished raised NotFoundError>]
+2025-02-23 15:59:51,189 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 404 Not Found"
+2025-02-23 15:59:51,190 - WARNING - ∆¿π¿«Î«Û ß∞‹: Error code: 404 - {'error': {'message': 'The model `qwen-plus` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'param': None, 'code': 'model_not_found'}}
+2025-02-23 15:59:51,190 - ERROR - ¥¶¿Ì“Ï≥££∫RetryError[<Future at 0x127decaaa10 state=finished raised NotFoundError>]
