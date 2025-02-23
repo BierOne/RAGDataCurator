@@ -28,10 +28,10 @@ answer_llm = OpenAI(temperature=0.1)
 assert os.path.exists("data//3//parsed_result.parquet"), "parsed_result.parquet 文件不存在！"
 assert os.path.exists("data//3//2.parquet"), "0.parquet 文件不存在！"
 raw_df = pd.read_parquet("data//3//parsed_result.parquet")
-#raw_df=raw_df.loc[0:37]
+
 raw_instance = Raw(raw_df)
 corpus_df = pd.read_parquet("data//3//2.parquet")
-#corpus_df=corpus_df.loc[0:47]
+
 corpus_instance = Corpus(corpus_df, raw_instance)
 
 evaluator = setup_evaluator(
