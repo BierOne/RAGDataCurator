@@ -10,7 +10,6 @@ from sentence_transformers import SentenceTransformer
 from openai import AsyncClient
 from sklearn.metrics.pairwise import cosine_similarity
 import pandas as pd
-from cross_val_score import (cross_validate_qa,filter_valid_qa)
 from cosine_sim_filter import (make_cosine_dedup_filter,make_jaccard_dedup_filter)
 import nltk
 from get_column_attribute import (add_length_columns,classify_query_type)
@@ -34,7 +33,6 @@ raw_instance = Raw(raw_df)
 corpus_df = pd.read_parquet("data//3//2.parquet")
 #corpus_df=corpus_df.loc[0:47]
 corpus_instance = Corpus(corpus_df, raw_instance)
-corpus=pd.read_parquet("corpus.parquet")
 
 evaluator = setup_evaluator(
     api_key="sk-7d7c8f138a864a08bee5c59e7ca1962b",
