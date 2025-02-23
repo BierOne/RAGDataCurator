@@ -29,7 +29,7 @@ class QAEvaluator:
         )
         self.model = model
         self.max_concurrency = max_concurrency
-        self.eval_prompt_template = """请执行两阶段评估：
+        self.eval_prompt_template = """请执行三阶段评估：
 
 [阶段1：依据核查]
 语料库片段：{corpus}
@@ -77,8 +77,7 @@ class QAEvaluator:
 
     @staticmethod
     def dynamic_context_selection(question, answer, full_corpus, window_size=3000):
-        """保持原dynamic_context_selection函数内容不变"""
-        # ... 原函数实现 ...
+
         # 提取特征
 
         keywords = set(re.findall(r'\w{2,}', question.lower()))
@@ -108,7 +107,7 @@ class QAEvaluator:
 
     @staticmethod
     def parse_eval_response(response):
-        """保持原parse_eval_response函数内容不变"""
+        
         # ... 原函数实现 ...
         try:  # 如果响应为空或明显无效，直接返回默认值
             if not response or "Invalid" in response or "无法" in response:
