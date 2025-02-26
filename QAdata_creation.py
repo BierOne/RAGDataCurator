@@ -14,7 +14,7 @@ from tqdm import tqdm
 query_llm = OpenAI(temperature=0.5)
 answer_llm = OpenAI(temperature=0.1)
 evaluator = setup_evaluator(
-    api_key="sk-7d7c8f138a864a08bee5c59e7ca1962b",
+    api_key="your-api_key-here",
     base_url="https://dashscope.aliyuncs.com/compatible-mode/v1"
 )
 # load data
