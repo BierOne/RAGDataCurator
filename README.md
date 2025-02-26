@@ -1,11 +1,9 @@
-# Data Creation
+# RAGDataCurator
 
-Data creation is the crucial process to use AutoRAG. Because AutoRAG needs an evaluation dataset for optimizing the RAG pipelines.
+Data creation is the crucial process for RAG. Because AutoRAG needs an evaluation dataset for optimizing the RAG pipelines.
 The following guide covers how to use LLM to create data in a form that AutoRAG can use.
 
 ## Basic Concepts
-
-![Data Creation Pipeline](../_static/data_creation_pipeline.png)
 
 In this new data creation pipeline, we have three schemas. `Raw`, `QA`, and `Corpus`.
 
@@ -20,7 +18,7 @@ In other words,
 `Corpus` : chunked data
 `QA` : Question & Answer dataset based on the corpus
 
-![](../_static/qa/data_creation_schema.png)
+
 
 To see the tutorial of the data creation, check [here](tutorial.md).
 

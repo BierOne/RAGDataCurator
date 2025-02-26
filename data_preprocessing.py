@@ -3,6 +3,9 @@ import multiprocessing
 from autorag.chunker import Chunker
 from autorag.data import sentence_splitter_modules, LazyInit
 
+'''use one of them to do parsing and chunking operation, remember to adjust data path'''
+
+
 # if __name__ == '__main__':
 #     multiprocessing.freeze_support()
 #     parser = Parser(data_path_glob="all_rawdata.csv",project_dir="3")
