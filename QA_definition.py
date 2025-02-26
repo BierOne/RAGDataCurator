@@ -4,7 +4,6 @@ import uuid
 import pandas as pd
 from autorag.utils.util import process_batch, get_event_loop, fetch_contents
 from autorag.support import get_support_modules
-
 import re
 import asyncio
 import pandas as pd
@@ -12,6 +11,8 @@ from openai import AsyncOpenAI
 from tenacity import retry, stop_after_attempt, wait_exponential
 import logging
 from typing import Dict, List
+
+
 class QAEvaluator:
     def __init__(self, api_key, base_url, model="qwen-plus", max_concurrency=8):
         """
