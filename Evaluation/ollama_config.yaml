@@ -13,7 +13,7 @@ vectordb:
   api_key: null
   tenant: default_tenant
   database: default_database
-  path: C:/Users/Flash/Desktop/postgraduate school/Project/autorag-test/AutoRAG-main/ragas/project_eli5-qwen/db-sources
+  path: ./Evaluation/project_eli5-qwen/db-sources
 node_lines:
 - node_line_name: retrieve_node_line
   nodes:
