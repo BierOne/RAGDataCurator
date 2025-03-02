@@ -1,0 +1,73 @@
+vectordb:
+- name: chroma_large
+  collection_name: huggingface_all_mpnet_base_v2
+  db_type: chroma
+  embedding_batch: 200
+  embedding_model: huggingface_all_mpnet_base_v2
+  similarity_metric: cosine
+  client_type: persistent
+  host: localhost
+  port: 8000
+  ssl: false
+  headers: null
+  api_key: null
+  tenant: default_tenant
+  database: default_database
+  path: C:/Users/Flash/Desktop/postgraduate school/Project/autorag-test/AutoRAG-main/ragas/project_eli5-qwen/db-sources
+node_lines:
+- node_line_name: retrieve_node_line
+  nodes:
+  - strategy:
+      metrics:
+      - retrieval_f1
+      - retrieval_recall
+      - retrieval_precision
+    node_type: retrieval
+    modules:
+    - module_type: hybrid_rrf
+      top_k: 5
+      weight: 4
+      target_modules: ('bm25', 'vectordb')
+      target_module_params:
+      - top_k: 5
+      - top_k: 5
+        # vectordb:openai_chroma      
+        vectordb: chroma_large
+- node_line_name: post_retrieve_node_line
+  nodes:
+  - node_type: prompt_maker
+    strategy:
+      metrics:
+      - meteor
+      - rouge
+      - bert_score
+    modules:
+    - module_type: fstring
+      prompt: "Tell me something about the question: {query} \n {retrieved_contents}"
+  - node_type: generator
+    strategy:
+      metrics:
+      - meteor
+      - rouge
+      - bert_score
+    modules:
+    - batch: 2
+      max_token: 512
+      # module_type: llama_index_llm
+      module_type: OpenAILLM
+      temperature: 0.1
+      # llm: openai
+      # model: gpt-3.5-turbo
+      llm: qwen2.5-7b-instruct-1m
+      truncate: true
+      base_url: https://dashscope.aliyuncs.com/compatible-mode/v1
+      api_key: sk-585d57d7499b4835b04c755d391b9d36
+      request_timeout: 1200.0
+bm25_tokenizer_list:
+- porter_stemmer
+- space
+strategies:
+  metrics:
+  - meteor
+  - rouge
+  - bert_score
