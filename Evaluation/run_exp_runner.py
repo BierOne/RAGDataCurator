@@ -67,4 +67,3 @@ if __name__ == '__main__':
     main()
 
 # python ./ragas/run_exp_runner.py -n autorag --yaml_file  ./experiments/ollama_config.yaml --single --data_dir ./ragas/data --project_dir ./ragas/project
-# python ./ragas/run_exp_runner.py -n autorag --yaml_file experiments/ollama_config.yaml --single --data_dir ./ragas/data --project_dir ./ragas/project
