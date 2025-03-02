@@ -14,15 +14,15 @@ from tqdm import tqdm
 query_llm = OpenAI(temperature=0.5)
 answer_llm = OpenAI(temperature=0.1)
 evaluator = setup_evaluator(
-    api_key="your-api_key-here",
+    api_key="your-api-key",
     base_url="https://dashscope.aliyuncs.com/compatible-mode/v1"
 )
 # load data
-assert os.path.exists("source_data//3//parsed_result.parquet"), "parsed_result.parquet 文件不存在！"
-assert os.path.exists("source_data//3//2.parquet"), "0.parquet 文件不存在！"
-raw_df = pd.read_parquet("source_data//3//parsed_result.parquet")
+assert os.path.exists("source_data//processed_data//parsed_result.parquet"), "parsed_result.parquet 文件不存在！"
+assert os.path.exists("source_data//processed_data//2.parquet"), "0.parquet 文件不存在！"
+raw_df = pd.read_parquet("source_data//processed_data//parsed_result.parquet")
 raw_instance = Raw(raw_df)
-corpus_df = pd.read_parquet("source_data//3//2.parquet")
+corpus_df = pd.read_parquet("source_data//processed_data//2.parquet")
 corpus_instance = Corpus(corpus_df, raw_instance)
 
 empty_qa = QA(
@@ -30,11 +30,10 @@ empty_qa = QA(
     linked_corpus=corpus_instance  # 需要传入实际的Corpus实例
 )
 final_qa = empty_qa
-
-TARGET_SIZE = 3
+TARGET_SIZE = 500
 loop_count = 0
 maximum_loops = 50
-sample_size=1
+sample_size=100
 
 while len(final_qa.data)<TARGET_SIZE:
     print(f"\n=== Start round NO. {loop_count+1} of QA data generation ===")
@@ -57,18 +56,12 @@ while len(final_qa.data)<TARGET_SIZE:
     else:
         final_qa.data = pd.concat([final_qa.data, batch_qa.data],ignore_index=True)
     final_qa.filter(make_jaccard_dedup_filter(threshold=0.7),lang="en",)
-
     print(f"Current data volume：{len(final_qa.data)}")
     loop_count += 1
+    #adjust sample size dynamically
     remaining = TARGET_SIZE - len(final_qa.data)
-    sample_size = min(40, remaining * 2)  # Dynamically calculate the sample amount
-
+    sample_size = min(100, remaining * 5)  # Dynamically calculate the sample amount
+    print(f"\n=== Next round sample size: {sample_size}  ===")
     with tqdm(total=TARGET_SIZE) as pbar:
-        pbar.update(len(batch_qa.data))  # Update progress bar
-
-    # Safe exit mechanism
-    # if loop_count > maximum_loops:  # Prevent infinite circulation
-    #     print("达到最大循环次数")
-    #     break
-
+        pbar.update(len(final_qa.data))  # Update progress bar
 final_qa.to_parquet('output_data//qa.parquet', 'output_data//corpus.parquet')
