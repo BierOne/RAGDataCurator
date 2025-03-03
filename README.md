@@ -4,7 +4,7 @@ Data creation is the crucial process for RAG. We construct a data creation pipel
 
 ## Basic Concepts
 
-![data_creation_pipeline](source_data\picture\data_creation_pipeline.png)
+![data_creation_pipeline](source_data/picture/data_creation_pipeline.png)
 
 In this new data creation pipeline, we have three schemas. `Raw`, `QA`, and `Corpus`.
 
