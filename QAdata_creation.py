@@ -2,7 +2,7 @@ import os
 from llama_index.llms.openai import OpenAI
 from autorag.data.qa.filter.dontknow import dontknow_filter_rule_based
 from autorag.data.qa.generation_gt.llama_index_gen_gt import (make_basic_gen_gt)
-from QA_definition import Raw, Corpus,QA,setup_evaluator
+from QA_definition import Raw, Corpus, QA, setup_evaluator
 from autorag.data.qa.query.llama_gen_query import factoid_query_gen
 from autorag.data.qa.sample import random_single_hop
 import pandas as pd
